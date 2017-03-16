@@ -122,7 +122,8 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -25px;
+    /* espacement du bas */
+    bottom: -20px;
 
     display: block;
 
@@ -175,8 +176,6 @@
 {
     opacity: 1;
 }
-
-/*
 .slick-dots li button:before
 {
     font-family: 'slick';
@@ -199,8 +198,6 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
-*/
 .slick-dots li.slick-active button:before
 {
     opacity: .75;

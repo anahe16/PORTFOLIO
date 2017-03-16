@@ -18,43 +18,18 @@
    				width:100%;
    				margin-top: auto;
 			}
-
 			#nav span {
 				padding-left: 10px;
 			    vertical-align: top;
 			    line-height:2.6;
 			    display:none;
+
 			}
 
 			#nav a:hover span {
 				display:inline;
-				opacity:0;
-			    -moz-animation: anim 0.1s linear forwards 0.1s;
-			    -webkit-animation: anim 0.1s linear forwards 0.1s;
-			    -o-animation: anim 0.1s linear forwards 0.1s;
-			    -ms-animation: anim 0.1s linear forwards 0.1s;
-			    animation: anim 0.1s linear forwards 0.1s;
-			}
+				
 
-			@-moz-keyframes anim {
-			   0%  {opacity:0;}
-			   100% {opacity:1;}
-			}
-			@-webkit-keyframes anim {
-			   0%  {opacity:0;}
-			   100% {opacity:1;}
-			}
-			@-o-keyframes anim {
-			   0%  {opacity:0;}
-			   100% {opacity:1;}
-			}
-			@-ms-keyframes anim {
-			   0%  {opacity:0;}
-			   100% {opacity:1;}
-			}
-			@keyframes anim {
-			   0%  {opacity:0;}
-			   100% {opacity:1;}
 			}
 
 			div#nav {
@@ -99,13 +74,15 @@
 
 			 }
 
-			#main:not (.slick-slide) {
+			#main {
   				font-size:25px;
   				font-family: "Source Sans Pro", Helvetica, sans-serif;
  				text-align:center;
  				margin-top:10%;
  			}
 
+ 			
+ 		
 /*------------------ carousel ------------------- */  
 
 			.carousel img {
@@ -130,30 +107,63 @@
 				  position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
 			}
 
+			.carousel .text {
+				   position:relative;
+				   visibility:hidden;
+				   vertical-align:middle;
+				   font-weight: 900;
+			}
 			.carousel .slick-slide:hover.text {
 					visibility:visible;
 					color:white;
 
 			}
+			.carousel-text {
+		
+					 display: flex;
+					 align-items: center;
+					 justify-content: center;
+					 font-size:27px;
+					 letter-spacing: 9px;
+
+			}
+			.carousel-text h3 {
+				
+					font-weight: 900;
+	
+					color: inherit;
+					
+    		}
+		
 
 /*------------------ display carousel ------------------- */  
 
 		
 
 		    .slider {
+				width: 50%;
+				margin: 100px auto;
 		    }
 
 			/* espace entre img */  
 		    .slick-slide {
-		    	padding-top:100px;
+		      	margin: 0px 21px;
 		    }
-
 		    .slick-slide img {
+		      	width: 100%;
 
 		    }
-		    .slick-track {
-		    	padding:10px;
+
+		    .slick-next:before {
+		        color: black;
 		    }
+			.dotsonjp { 
+				font-size: 14px;
+				letter-spacing: 0.3em;
+				line-height: 1.5;
+
+			}
+
 
 
 /*------------------ animation------------------- */ 
@@ -244,16 +254,6 @@
 						    transform: scale(1); } 
 
 				}
-
-				main p {
- 				float:right;
- 				padding-right:170px;
- 				padding-top: 300px;
- 				display: inline-block;
-  				vertical-align: middle;
-  				position: relative;
-
- 			}
 
 
 /*------------------ formulaire ------------------- */   
@@ -428,11 +428,6 @@
 
 {
    	
-
-			p, b {
-				display:none;
-			}
-
    			.carousel-text {
    				font-size:80%!important;
    			}	
@@ -500,15 +495,9 @@
    				width: 100% !important;	
    			}
 
-   			.tiles article > a:hover {
-				height:auto!important;
-   				width:auto!important;
-			}
-
-
 }
 /* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) 
+@media only screen  and (max-width : 1224px) 
 {
 			.carousel-text {
    				font-size:100%!important;
@@ -517,10 +506,5 @@
    			span.image {
    				height:auto!important;
    			}
-   			.tiles article > a:hover {
-				height:auto!important;
-   				width:auto!important;
-			}
-
 }
 			
