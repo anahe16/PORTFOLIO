@@ -73,9 +73,8 @@
 
 .slick-slide
 {
-    display: none;
     float: left;
-    padding-top:15px;
+    padding-top:10px;
     height: 100%;
 }
 [dir='rtl'] .slick-slide
@@ -114,5 +113,5 @@
     border: 1px solid transparent;
 }
 .slick-arrow.slick-hidden {
-    display: none;
+    display: inline;
 }
