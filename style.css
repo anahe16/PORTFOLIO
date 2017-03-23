@@ -431,15 +431,9 @@
 @media only screen and (max-width : 900px) 
 
 {
-   	
-
 			#header {
-				font-size:120%;
+				font-size:110%!important;
 			}
-
-   			.carousel-text {
-   				font-size:80%!important;
-   			}	
 
    			span.image {
    				height:auto!important;
@@ -453,7 +447,6 @@
 
 			.slick-track {
 				width: 100% !important;
-	    
 			}
 
 			.slick-list.draggable {
@@ -473,12 +466,15 @@
    			}
 
    			#footer {
-
+   				font-size:11px;
    			}
 }
 /* Tablets ----------- */
 @media only screen and (min-width : 900px; max-width : 1224px) 
 {
+			#header {
+				font-size:110%;
+			}
 			.carousel-text {
    				font-size:80%!important;
    			}	
@@ -513,6 +509,10 @@
    				width:auto!important;
 			}
 
+			#footer {
+   				font-size:11px;
+   			}
+
 
 }
 /* Desktops and laptops ----------- */
@@ -529,6 +529,9 @@
 				height:auto!important;
    				width:auto!important;
 			}
+			#footer {
+   				font-size:11px;
+   			}
 
 }
 			
