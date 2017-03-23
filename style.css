@@ -164,14 +164,16 @@
 				  border-radius: 50%;
 				  height: 50vmin;
 				  width: 50vmin;
-			
+			}
+			figure.ball.bubble {
 			}
 			 .ball.bubble {
 				  -webkit-animation: bubble-anim 2s ease-out infinite;
 				  animation: bubble-anim 2s ease-out infinite; 
 				  position:center;
 				  margin-left: auto;
-	    		  margin-right: auto
+	    		  margin-right: auto;
+			}
 			}
 			 .ball.bubble:before {
 			      -webkit-filter: blur(0);
@@ -186,7 +188,7 @@
 			      background: radial-gradient(circle at 50% 80%, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 74%, white 80%, white 84%, rgba(255, 255, 255, 0) 100%); 
 			  }
 			 .section.stage {
-    			  display: block;
+    			  display: none;
     		 }
 			.stage {
 				  -webkit-perspective: 12px;
@@ -199,7 +201,9 @@
 				  -ms-perspective-origin: 50% 50%;
 				  -o-perspective-origin: 50% 50%;
 				  perspective-origin: 50% 50%;
-				  padding-top:100px;
+				      position: absolute;
+				    top: calc(50vh - 25vmin);
+				    left: calc(50vw - 25vmin);
 			}
 
 				@-webkit-keyframes bubble-anim {
@@ -429,8 +433,8 @@
 {
    	
 
-			p, b {
-				display:none;
+			#header {
+				font-size:120%;
 			}
 
    			.carousel-text {
@@ -466,6 +470,10 @@
 
    			.slick-slide {
    				width: 100% !important;	
+   			}
+
+   			#footer {
+
    			}
 }
 /* Tablets ----------- */
