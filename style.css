@@ -437,11 +437,13 @@
 
    			span.image {
    				height:auto!important;
+
    			}
 
    			.tiles article > a:hover {
 				height:auto!important;
    				width:auto!important;
+
 			}
 
 
