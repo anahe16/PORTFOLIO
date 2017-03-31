@@ -2672,7 +2672,6 @@
 				}
 
 
-
 			.tiles article > a {
 				display: -moz-flex;
 				display: -webkit-flex;
@@ -2749,7 +2748,7 @@
 				}
 
 				.tiles article > a:hover {
-					color: red !important;
+					color: white !important;
 					height:auto!important;
    					width:auto!important;
 				}
@@ -2801,13 +2800,14 @@
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
-					opacity: 0;
+					opacity: 1;
 				}
 
 			body:not(.is-touch) .tiles article:hover .content,
 			body:not(.is-touch) .tiles article:hover h2 {
 				max-height: 15em;
 				opacity: 1;
+				filter: grayscale(0);
 			}
 
 		* + .tiles {
