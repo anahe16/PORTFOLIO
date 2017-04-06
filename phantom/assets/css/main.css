@@ -2598,6 +2598,7 @@
 		padding-top:20px;
 	}
 
+
 		.tiles article {
 			-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
 			-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
@@ -2608,6 +2609,7 @@
 			margin: 2.5em 0 0 2.5em;
 
 		}
+
 
 			.tiles article > .image {
 				-moz-transition: -moz-transform 0.5s ease;
@@ -2624,9 +2626,9 @@
 				.tiles article > .image img {
 					display: block;
 					width: 100%;
-				}
+			}
 
-				.tiles article > .image:before {
+				.tiles article > .image:before{
 					-moz-pointer-events: none;
 					-webkit-pointer-events: none;
 					-ms-pointer-events: none;
@@ -2642,9 +2644,10 @@
 					left: 0;
 					width: 100%;
 					height: 100%;
-					opacity: 1.0;
-					z-index: 1;
-					opacity: 0.8;
+				
+				}
+				.content, .text {
+					text-align:center;
 				}
 
 				.tiles article > .image:after {
