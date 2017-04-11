@@ -13,7 +13,7 @@
 				position:fixed;
    				float:left;
   			 	padding-left:10px;
-   				bottom:40px;
+   				bottom:60px;
    				height:100px;
    				width:100%;
    				margin-top: auto;
@@ -88,6 +88,10 @@
 			 	width:100%;
 			 	height:700px;
 			 	margin:0;
+			 }
+
+			 header {
+			 	padding-top:7%;
 			 }
 
 
@@ -407,6 +411,18 @@
 			  color: #e2dedb;
 			  background:black;
 			}
+
+/*------------------ icons ------------------- */  
+
+			.icon {
+				margin-top:45px;
+			}
+			img.icon {
+				padding:20px;
+			}
+
+			
+
 /*------------------ footer ------------------- */  
 
 			#footer	{
@@ -420,9 +436,8 @@
    				margin-top: auto;
    				font-size: 11px;
 				font-family: "Source Sans Pro", Helvetica, sans-serif;
-
 			}
-			
+		
 
 /*------------------ responsive ------------------- */  
 		
@@ -446,7 +461,6 @@
 
 			}
 
-
 			.slick-track {
 				width: 100% !important;
 			}
@@ -463,8 +477,8 @@
 				display:none!important;
 			}
 
-   			.slick-slide {
-   				width: 100% !important;	
+   			.slick-slide img {
+   				display: inline !important;	
    			}
 
    			#footer {

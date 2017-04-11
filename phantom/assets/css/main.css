@@ -2628,7 +2628,7 @@
 					width: 100%;
 			}
 
-				.tiles article > .image:before{
+				.tiles article > .image:before {
 					-moz-pointer-events: none;
 					-webkit-pointer-events: none;
 					-ms-pointer-events: none;
