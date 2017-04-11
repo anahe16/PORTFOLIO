@@ -94,7 +94,6 @@
 			 	padding-top:7%;
 			 }
 
-
 			 #header {
 			 	font-size:25px;
   				font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -109,6 +108,28 @@
  				text-align:center;
  				margin-top:10%;
  			}
+
+/*------------------ about ------------------- */ 
+ 			 .intro {
+			 	
+			 }
+			 #wrap {
+			   width:1000px;
+			   margin:0 auto;
+			}
+			#left_col {
+				padding-top:110px;
+			   float:left;
+			   width:250px;
+			}
+			#right_col {
+			   float:right;
+			   width:600px;
+			   text-align: left;
+			   padding-top:250px;
+			}
+
+
 
 /*------------------ carousel ------------------- */  
 
