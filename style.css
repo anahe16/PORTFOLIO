@@ -110,9 +110,7 @@
  			}
 
 /*------------------ about ------------------- */ 
- 			 .intro {
-			 	
-			 }
+ 		
 			 #wrap {
 			   width:1000px;
 			   margin:0 auto;
@@ -483,23 +481,21 @@
 			}
 
 			.slick-track {
-				width: 100% !important;
+				
 			}
 
 			.slick-list.draggable {
-				width: 70% !important;
-				display:block!important;
-				padding-left:80% !important;
-				position:center!important;
-    			margin: auto!important;
-
+				
 			}
 			.slick-dots {
 				display:none!important;
 			}
 
    			.slick-slide img {
-   				display: inline !important;	
+   				display: block !important;	
+   				height:50vmin!important;
+   				width:50vmin!important;
+
    			}
 
    			#footer {
