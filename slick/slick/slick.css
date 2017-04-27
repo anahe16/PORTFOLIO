@@ -50,6 +50,7 @@
 .slick-track
 {
     position: relative;
+width:100%;
     top: 0;
     left: 0;
 
@@ -59,7 +60,7 @@
 .slick-track:after
 {
     display: table;
-
+width:100%;
     content: '';
 }
 .slick-track:after

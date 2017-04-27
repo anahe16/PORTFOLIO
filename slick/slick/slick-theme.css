@@ -69,17 +69,24 @@
     font-family: 'slick';
     font-size: 20px;
     line-height: 1;
-
+    padding:10px;
     opacity: .75;
-    color: white;
+    color: blue;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+/*
+.slick-prev {
+    left: -25px;
+}
+*/
 
 .slick-prev
 {
-    left: -25px;
+z-index: 2;
+left:10px;
+
 }
 [dir='rtl'] .slick-prev
 {
@@ -94,11 +101,18 @@
 {
     content: '→';
 }
-
-.slick-next
-{
+/*
+.slick-next {
     right: -25px;
 }
+*/
+
+.slick-next {
+    z-index: 2;
+    right:30px;
+
+}
+
 [dir='rtl'] .slick-next
 {
     right: auto;
@@ -123,15 +137,13 @@
 {
     position: absolute;
     bottom: -25px;
-
     display: block;
-
-    width: 100%;
+    width: 50%;
     padding: 0;
     margin: 0;
-
+    left:25%;
+    z-index:2;
     list-style: none;
-
     text-align: center;
 }
 .slick-dots li
@@ -176,7 +188,7 @@
     opacity: 1;
 }
 
-/*
+
 .slick-dots li button:before
 {
     font-family: 'slick';
@@ -200,7 +212,6 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-*/
 .slick-dots li.slick-active button:before
 {
     opacity: .75;

@@ -65,6 +65,7 @@
 			a.dot {
 				margin-right:100px;
 				margin:0;
+				width:10%;
 			}
 
 
@@ -176,6 +177,10 @@
 		    }
 		    .slick-track {
 		    	padding:10px;
+		    }
+
+		    .carousel figure:nth-child(6) {
+		    	display:none;
 		    }
 
 
@@ -447,14 +452,11 @@
 			#footer	{
 				
    				position:fixed;
-   				float:right;
-  			 	padding-left: 87vw;
    				bottom:-60px;
+   				right:10px;
    				height:100px;
-   				width:100%;
    				margin-top: auto;
    				font-size: 11px;
-				font-family: "Source Sans Pro", Helvetica, sans-serif;
 			}
 		
 
