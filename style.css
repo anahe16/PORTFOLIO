@@ -467,6 +467,8 @@
 				padding:20px;
 			}
 
+
+
 			
 
 /*------------------ footer ------------------- */  
@@ -503,14 +505,6 @@
    				width:auto!important;
 
 			}
-
-			.slick-track {
-				
-			}
-
-			.slick-list.draggable {
-				
-			}
 			.slick-dots {
 				display:none!important;
 			}
@@ -530,21 +524,29 @@
    				margin:10%;
    			}
 
-   			.me {
+   			div#left_col {
 	   			position: absolute;
 				max-width: 80%;
-				top: 20%;
+				top: 5%;
 				left: 10%;
 				display: block !important;
 				z-index:-5;	
+				margin-left:3%;
    			}
 
-   				
-
    			div#right_col {
-   				display: block !important;	
-   				height:50vmin!important;
-   				width:50vmin!important;
+   				position: absolute;
+				max-width: 80%;
+				top: 75%;
+				left: 20%;
+				display: block !important;
+				font-size:80%;
+				padding-bottom:40px;
+				display:none;
+   			}
+
+   			a.work {
+   				font-size:80%;
    			}
 }
 /* Tablets ----------- */
@@ -587,17 +589,41 @@
    				width:auto!important;
 			}
 
-			.me {
+			#left_col {
 	   			position: absolute;
 				max-width: 80%;
-				top: 20%;
+				top: 25%;
 				left: 10%;
 				display: block !important;
 				z-index:-5;	
+				padding-left:50%;
+   			}
+
+   			#right_col {
+   				position: absolute;
+				max-width: 80%;
+				top: 77	%;
+				left: 20%;
+				display: block !important;
+				font-size:80%;
+				padding-bottom:40px;
    			}
 
 			#footer {
    				font-size:11px;
+   			}
+
+   				div#right_col {
+   				position: absolute;
+				max-width: 80%;
+				top: 80%;
+				left: 20%;
+				display: block !important;
+				font-size:70%;
+   			}
+
+   			a.work {
+   				font-size:80%;
    			}
 
 
