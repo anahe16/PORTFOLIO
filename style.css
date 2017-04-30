@@ -525,6 +525,27 @@
    			#footer {
    				font-size:11px!important;
    			}
+
+   			header {
+   				margin:10%;
+   			}
+
+   			.me {
+	   			position: absolute;
+				max-width: 80%;
+				top: 20%;
+				left: 10%;
+				display: block !important;
+				z-index:-5;	
+   			}
+
+   				
+
+   			div#right_col {
+   				display: block !important;	
+   				height:50vmin!important;
+   				width:50vmin!important;
+   			}
 }
 /* Tablets ----------- */
 @media only screen and (min-width : 900px; max-width : 1224px) 
@@ -565,6 +586,15 @@
 				height:auto!important;
    				width:auto!important;
 			}
+
+			.me {
+	   			position: absolute;
+				max-width: 80%;
+				top: 20%;
+				left: 10%;
+				display: block !important;
+				z-index:-5;	
+   			}
 
 			#footer {
    				font-size:11px;
