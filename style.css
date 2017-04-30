@@ -78,12 +78,16 @@
 				font-family: "Source Sans Pro", Helvetica, sans-serif;
 			}
 
+			b:hover {
+				color: transparent;
+   				text-shadow: 0 0 4px rgba(0,0,0,0.5);
+			}
+
 			a {
 				text-decoration:none;
 				font-family: "Source Sans Pro", Helvetica, sans-serif;
     			color: black; 
 			 }
-
 
 			 body {
 			 	width:100%;
@@ -102,6 +106,7 @@
  				padding-top:40px;
 
 			 }
+
 
 			#main:not (.slick-slide) {
   				font-size:25px;
@@ -125,8 +130,24 @@
 			   float:right;
 			   width:600px;
 			   text-align: left;
-			   padding-top:250px;
+			   padding-top:5%;
 			}
+
+			#right_col header {
+				text-align: left;
+			}
+
+/*------------------ work ------------------- */
+
+.work {
+	padding:20px;
+	} 
+	 
+
+.work:hover {
+	color: transparent;
+   	text-shadow: 0 0 4px rgba(0,0,0,0.5);
+}
 
 
 
