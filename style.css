@@ -503,7 +503,7 @@
 			}
 
    			span.image {
-   				height:auto!important;
+   				height:50vmin!important;
    			}
 
    			#nav {
@@ -542,14 +542,19 @@
    				margin:7%;
    			}
 
-   			div#left_col {
-	   			position: absolute;
-				max-width: 80%;
-				top: 5%;
-				left: 5%;
+   			#left_col {
+				padding:0;
+				width:100%;
+   			}
+
+   			img.me {
+
+				padding-top:5%;
 				display: block !important;
 				z-index:-5;	
-				margin-left:3%;
+				width:80%!important;
+				position:center,fixed;
+				margin:auto;
    			}
 
    			div#right_col {
@@ -561,6 +566,7 @@
 				font-size:80%;
 				padding-bottom:40px;
 				display:none;
+				line-height:10px;
    			}
 
    			a.work {
@@ -570,7 +576,21 @@
 }
 /* Tablets ----------- */
 @media only screen and (min-width : 900px; max-width : 1224px) 
+
+
 {
+
+
+	img.me {
+   					position: absolute;
+
+				padding-top:25%;
+				top: 5%;
+				display: block !important;
+				z-index:-5;	
+				padding-left:8vmin;
+				width:50%!important;
+   			}
 			#header {
 				font-size:110%;
 			}
