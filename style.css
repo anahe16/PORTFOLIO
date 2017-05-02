@@ -503,7 +503,8 @@
 			}
 
    			span.image {
-   				height:50vmin!important;
+   				height:auto!important;
+   				width:auto!important;
    			}
 
    			#nav {
@@ -580,7 +581,7 @@
 
 {
 
-		img.me {
+			img.me {
 
 				padding-top:5%;
 				display: block !important;
