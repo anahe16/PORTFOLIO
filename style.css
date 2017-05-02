@@ -495,6 +495,11 @@
 				font-size:120%!important;
 			}
 
+			body {
+				height:500px!important;
+				width:100%!important;
+			}
+
    			span.image {
    				height:auto!important;
 
