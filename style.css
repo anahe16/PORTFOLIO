@@ -508,6 +508,10 @@
    				width:95%!important;
    			}
 
+   			img.icon {
+   				padding:0!important;
+   			}
+
    			.tiles article > a:hover {
 				height:auto!important;
    				width:auto!important;
@@ -529,7 +533,7 @@
    			}
 
    			header {
-   				margin:10%;
+   				margin:7%;
    			}
 
    			div#left_col {
