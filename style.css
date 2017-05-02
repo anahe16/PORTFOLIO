@@ -78,7 +78,7 @@
 				font-family: "Source Sans Pro", Helvetica, sans-serif;
 			}
 
-			p,b:not(.right_col)  {
+			p,b:not(.#right_col p)  {
 				line-height: 40px;
 			}
 
@@ -133,9 +133,9 @@
 			}
 			#right_col {
 			   float:right;
-			   width:500px;
+			   width:400px;
 			   text-align: left;
-			   padding-right: 20%;
+			   padding-right: 25%;
 			   padding-top:10%;
 			   font-size: 20px;
 			}
@@ -497,6 +497,10 @@
 				font-size:120%!important;
 			}
 
+			header {
+   				margin:7%;
+   			}
+
 			body {
 				height:500px!important;
 				width:100%!important;
@@ -509,38 +513,6 @@
 
    			#nav {
  				bottom:30px;
-   			}
-
-   			img.icon {
-   				padding:0!important;
-   			}
-
-   			.icon {
-   				margin-top:30px!important;
-   			}
-
-   			.tiles article > a:hover {
-				height:auto!important;
-   				width:auto!important;
-
-			}
-			.slick-dots {
-				display:none!important;
-			}
-
-   			.slick-slide img {
-   				display: block !important;	
-   				height:50vmin!important;
-   				width:50vmin!important;
-
-   			}
-
-   			#footer {
-   				font-size:11px!important;
-   			}
-
-   			header {
-   				margin:7%;
    			}
 
    			#left_col {
@@ -561,18 +533,48 @@
 			#right_col {
    				position: absolute;
 				padding-top: 85%;
-				padding-left:20%;
 				width:75%;
 				display: block !important;
 				font-size:80%;
 				padding-bottom:40px;
-				line-height:1;
+				line-height:0;
+   			}
+
+   			#right_col p{
+   				position: absolute;
+				padding-left:30%;
+				width:75%;
+				display: block !important;
+				font-size:80%;
+				padding-bottom:40px;
+				line-height:1.5;
    			}
 
    			a.work {
    				font-size:80%;
    				margin-bottom:20px;
    			}
+
+   			img.icon {
+   				padding:0!important;
+   			}
+
+   			.icon {
+   				margin-top:30px!important;
+   			}
+
+   			.tiles article > a:hover {
+				height:auto!important;
+   				width:auto!important;
+
+			}
+
+   			#footer {
+   				font-size:11px!important;
+   			}
+
+
+   			
 }
 /* Tablets ----------- */
 @media only screen and (min-width : 900px; max-width : 1224px) 
@@ -580,15 +582,6 @@
 
 {
 
-			img.me {
-
-				padding-top:5%;
-				display: block !important;
-				z-index:-5;	
-				width:50%!important;
-				position:center,fixed;
-				margin:auto;
-   			}
 			#header {
 				font-size:110%;
 			}
@@ -626,43 +619,44 @@
    				width:auto!important;
 			}
 
-			#left_col {
-	   			position: absolute;
-				max-width: 80%;
-				top: 25%;
-				left: 10%;
-				display: block !important;
-				z-index:-5;	
-				padding-left:50%;
-   			}
-
-   			#right_col {
-   				position: absolute;
-				max-width: 80%;
-				top: 77	%;
-				left: 20%;
-				display: block !important;
-				font-size:80%;
-				padding-bottom:40px;
-   			}
-
 			#footer {
    				font-size:11px;
    			}
 
-   				div#right_col {
-   				position: absolute;
-				max-width: 80%;
-				top: 80%;
-				left: 20%;
+			img.me {
+
+				padding-top:5%;
 				display: block !important;
-				font-size:70%;
+				z-index:-5;	
+				width:50%!important;
+				position:center,fixed;
+				margin:auto;
+   			}
+
+			#right_col {
+   				position: absolute;
+				padding-top: 85%;
+				width:75%;
+				display: block !important;
+				font-size:80%;
+				padding-bottom:40px;
+				line-height:0;
+   			}
+
+   			#right_col p{
+   				position: absolute;
+				padding-left:30%;
+				width:70%;
+				display: block !important;
+				font-size:90%;
+				padding-bottom:40px;
+				line-height:1.5;
    			}
 
    			a.work {
    				font-size:80%;
+   				margin-bottom:20px;
    			}
-
 
 }
 /* Desktops and laptops ----------- */
@@ -682,6 +676,8 @@
 			#footer {
    				font-size:11px;
    			}
+   			
+
 
 }
 			
