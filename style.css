@@ -504,8 +504,8 @@
    				height:auto!important;
    			}
 
-   			a.dot {
-   				width:95%!important;
+   			#nav {
+ 				bottom:30px;
    			}
 
    			img.icon {
