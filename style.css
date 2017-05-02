@@ -119,7 +119,7 @@
 /*------------------ about ------------------- */ 
  		
 			 #wrap {
-			   width:1000px;
+			   width:100%;
 			   margin:0 auto;
 			}
 			#left_col {
@@ -510,6 +510,10 @@
 
    			img.icon {
    				padding:0!important;
+   			}
+
+   			.icon {
+   				margin-top:30px!important;
    			}
 
    			.tiles article > a:hover {
