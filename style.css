@@ -120,25 +120,7 @@
  			}
 
 /*------------------ about ------------------- */ 
- 		
-			 #wrap {
-			   width:100%;
-			   margin:0 auto;
-			}
-			#left_col {
-				padding-top:10%;
-			   float:left;
-			   padding-left:30%;
-			   width:250px;
-			}
-			#right_col {
-			   float:right;
-			   width:400px;
-			   text-align: left;
-			   padding-right: 25%;
-			   padding-top:10%;
-			   font-size: 20px;
-			}
+
 
 /*------------------ work ------------------- */
 
@@ -186,7 +168,6 @@
 
 /*------------------ display carousel ------------------- */  
 
-		
 
 		    .slider {
 		    }
@@ -494,7 +475,7 @@
 
 {
 			#header {
-				font-size:120%!important;
+				font-size:3vw!important;
 			}
 
 			header {
@@ -532,20 +513,17 @@
 
 			#right_col {
    				position: absolute;
-				padding-top: 85%;
-				width:75%;
+				padding-top:3%;
+				width:77%;
 				display: block !important;
-				font-size:80%;
 				padding-bottom:40px;
-				line-height:0;
    			}
 
-   			#right_col p{
+   			#right_col p {
    				position: absolute;
 				padding-left:30%;
-				width:75%;
 				display: block !important;
-				font-size:80%;
+				font-size: 3vw!important;
 				padding-bottom:40px;
 				line-height:1.5;
    			}
@@ -576,79 +554,59 @@
 
    			
 }
-/* Tablets ----------- */
-@media only screen and (min-width : 900px; max-width : 1224px) 
+/* ----------- Laptops----------- */
+@media only screen and (min-width : 900px) 
 
 
 {
 
 			#header {
-				font-size:110%;
-			}
-			.carousel-text {
-   				font-size:80%!important;
-   			}	
-
-
-			.slick-track {
-				width: 100% !important;
-	    
+				font-size:1.5vw!important;
 			}
 
-			span.image {
+			header {
+   				margin:7%;
+   			}
+
+			body {
+				height:500px!important;
+				width:100%!important;
+			}
+
+   			span.image {
    				height:auto!important;
    			}
 
-			.slick-list.draggable {
-				width: 70% !important;
-				display:block!important;
-				height:105vmin !important;
-    			margin: auto!important;
-
-			}
-			.slick-dots {
-				display:none!important;
-			}
-
-   			.slick-slide {
-   				width: 100% !important;	
+   			#nav {
+ 				bottom:30px;
    			}
 
-   			.tiles article > a:hover {
-				height:auto!important;
-   				width:auto!important;
-			}
-
-			#footer {
-   				font-size:11px;
+   			#left_col {
+				padding:0;
+				width:100%;
    			}
 
-			img.me {
-
+   			img.me {
 				padding-top:5%;
-				display: block !important;
 				z-index:-5;	
-				width:50%!important;
 				position:center,fixed;
 				margin:auto;
    			}
 
 			#right_col {
    				position: absolute;
-				padding-top: 85%;
+				padding-top:3%;
 				width:75%;
 				display: block !important;
-				font-size:80%;
 				padding-bottom:40px;
-				line-height:0;
    			}
 
-   			#right_col p{
+   			#right_col p {
    				position: absolute;
+   				width:75%;
 				padding-left:30%;
-				width:70%;
 				display: block !important;
-				font-size:90%;
+				font-size: 1.5vw!important;
 				padding-bottom:40px;
 				line-height:1.5;
    			}
@@ -658,26 +616,22 @@
    				margin-bottom:20px;
    			}
 
-}
-/* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) 
-{
-			.carousel-text {
-   				font-size:100%!important;
-   			}	
-
-   			span.image {
-   				height:auto!important;
+   			img.icon {
+   				padding:0!important;
    			}
+
+   			.icon {
+   				margin-top:30px!important;
+   			}
+
    			.tiles article > a:hover {
 				height:auto!important;
    				width:auto!important;
-			}
-			#footer {
-   				font-size:11px;
-   			}
-   			
 
+			}
+
+   			#footer {
+   				font-size:11px!important;
+   			}
 
 }
-			
