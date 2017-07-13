@@ -523,7 +523,8 @@
    			#right_col p {
    				position: absolute;
 				padding-left:30%;
-				display: block !important;
+				display: block!important;
+				font-size:90%!important;
 				padding-bottom:40px;
 				line-height:1.5;
    			}
