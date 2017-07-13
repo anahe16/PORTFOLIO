@@ -475,7 +475,7 @@
 
 {
 			#header {
-				font-size:4vw!important;
+				font-size:6vw!important;
 			}
 
 			header {
@@ -523,7 +523,7 @@
    				position: absolute;
 				padding-left:30%;
 				display: block !important;
-				font-size: 4vw!important;
+				font-size: 5vw!important;
 				padding-bottom:40px;
 				line-height:1.5;
    			}
