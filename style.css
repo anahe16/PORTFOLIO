@@ -1,196 +1,8 @@
 
 
-			@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+			@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700");
 
-
-/*------------------ nav ------------------- */   
-
-			#nav a {
-				display:block;	
-			}
-
-			#nav {
-				position:fixed;
-   				float:left;
-  			 	padding-left:10px;
-   				bottom:60px;
-   				height:100px;
-   				width:100%;
-   				margin-top: auto;
-			}
-
-			#nav span {
-				padding-left: 10px;
-			    vertical-align: top;
-			    line-height:2.6;
-			    display:none;
-			}
-
-			#nav a:hover span {
-				display:inline;
-				opacity:0;
-			    -moz-animation: anim 0.1s linear forwards 0.1s;
-			    -webkit-animation: anim 0.1s linear forwards 0.1s;
-			    -o-animation: anim 0.1s linear forwards 0.1s;
-			    -ms-animation: anim 0.1s linear forwards 0.1s;
-			    animation: anim 0.1s linear forwards 0.1s;
-			    width:100%;
-			}
-
-			@-moz-keyframes anim {
-			   0%  {opacity:0;}
-			   100% {opacity:1;}
-			}
-			@-webkit-keyframes anim {
-			   0%  {opacity:0;}
-			   100% {opacity:1;}
-			}
-			@-o-keyframes anim {
-			   0%  {opacity:0;}
-			   100% {opacity:1;}
-			}
-			@-ms-keyframes anim {
-			   0%  {opacity:0;}
-			   100% {opacity:1;}
-			}
-			@keyframes anim {
-			   0%  {opacity:0;}
-			   100% {opacity:1;}
-			}
-
-			div#nav {
-				font-size: 16px;
-				font-family: "Source Sans Pro", Helvetica, sans-serif;
-			}
-
-			a.dot {
-				margin-right:100px;
-				margin:0;
-				width:100%;
-			}
-
-
-/*------------------ others ------------------- */  
-
-			p,b  {
-				display: inline;
-				letter-spacing: 0.1em;
-				font-family: "Source Sans Pro", Helvetica, sans-serif;
-			}
-
-			p,b:not(.#right_col p)  {
-				line-height: 40px;
-			}
-
-			b:hover {
-				color: transparent;
-   				text-shadow: 0 0 4px rgba(0,0,0,0.5);
-			}
-
-			a {
-				text-decoration:none;
-				font-family: "Source Sans Pro", Helvetica, sans-serif;
-    			color: black; 
-			 }
-
-			 body {
-			 	width:100%;
-			 	height:700px;
-			 	margin:0;
-			 }
-
-			 header {
-			 	padding-top:7%;
-			 }
-
-			 #header {
-			 	font-size:25px;
-  				font-family: "Source Sans Pro", Helvetica, sans-serif;
- 				text-align:center;
- 				padding-top:40px;
-
-			 }
-
-
-			#main:not (.slick-slide) {
-  				font-size:25px;
-  				font-family: "Source Sans Pro", Helvetica, sans-serif;
- 				text-align:center;
- 				margin-top:10%;
- 			}
-
-/*------------------ about ------------------- */ 
-
-
-/*------------------ work ------------------- */
-
-
-a.work {
-	padding:20px;
-	letter-spacing: 0.1em;
-	} 
-	 
-.work:hover {
-	color: transparent;
-   	text-shadow: 0 0 4px rgba(0,0,0,0.5);
-}
-
-
-
-/*------------------ carousel ------------------- */  
-
-			.carousel img {
-				 filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
-				 /* Firefox 10+, Firefox on Android */
-				 -webkit-filter: grayscale(100%);
-				 filter: grayscale(100%);
-				 filter: gray;
-				 /* IE 6-9 */
-				 -moz-transition: all 0.2s ease-in;
-				 -o-transition: all 0.2s ease-in;
-				 -webkit-transition: all 0.2s ease-in;
-				 transition: all 0.2s ease-in;
-		        -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
-
-
-			}
-			.carousel img:hover {
-				  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0'/></filter></svg>#grayscale");
-				  -webkit-filter: none;
-				  filter: none;
-				  position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
-			}
-
-			.carousel .slick-slide:hover.text {
-					visibility:visible;
-					color:white;
-
-			}
-
-/*------------------ display carousel ------------------- */  
-
-
-		    .slider {
-		    }
-
-			/* espace entre img */  
-		    .slick-slide {
-		    	padding-top:100px;
-		    }
-
-		    .slick-slide img {
-
-		    }
-		    .slick-track {
-		    	padding:10px;
-		    }
-
-		    .carousel figure:nth-child(6) {
-		    	display:none;
-		    }
-
-
-/*------------------ animation------------------- */ 
+			/*------------------ animation------------------- */ 
 
 			.ball {
 				  display: block;
@@ -293,157 +105,138 @@ a.work {
 
  			}
 
+ 			/*------------------ others ------------------- */  
 
-
-/*------------------ formulaire ------------------- */   
-
-			@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
-
-			input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-			  color: #aca49c;
-			  font-size: 0.875em;
+			p,b  {
+				display: inline;
+				letter-spacing: 0.1em;
+				font-family: "Source Sans Pro", Helvetica, sans-serif;
 			}
 
-			input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
-			  color: #bbb5af;
+			p,b:not(.#right_col p)  {
+				line-height: 40px;
 			}
 
-			input::-moz-placeholder, textarea::-moz-placeholder {
-			  color: #aca49c;
-			  font-size: 0.875em;
+			b:hover {
+				color: transparent;
+   				text-shadow: 0 0 4px rgba(0,0,0,0.5);
 			}
 
-			input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
-			  color: #bbb5af;
+			a {
+				text-decoration:none;
+				font-family: "Source Sans Pro", Helvetica, sans-serif;
+    			color: black; 
+			 }
+
+			 body {
+			 	width:100%;
+			 	height:700px;
+			 	margin:0;
+			 }
+
+			 header {
+			 	padding-top:7%;
+			 }
+
+			 #header {
+			 	font-size:25px;
+  				font-family: "Source Sans Pro", Helvetica, sans-serif;
+ 				text-align:center;
+ 				padding-top:40px;
+
+			 }
+
+
+			#main:not (.slick-slide) {
+  				font-size:25px;
+  				font-family: "Source Sans Pro", Helvetica, sans-serif;
+ 				text-align:center;
+ 				margin-top:10%;
+ 			}
+/*------------------ bouton back ------------------- */  
+
+
+/*------------------ nav ------------------- */   
+
+			#nav a {
+				display:block;	
 			}
 
-			input::placeholder, textarea::placeholder {
-			  color: #aca49c;
-			  font-size: 0.875em;
+			#nav {
+				position:fixed;
+   				float:left;
+  			 	padding-left:10px;
+   				bottom:60px;
+   				height:100px;
+   				width:100%;
+   				margin-top: auto;
 			}
 
-			input:focus::placeholder, textarea::focus:placeholder {
-			  color: #bbb5af;
+			#nav span {
+				padding-left: 10px;
+			    vertical-align: top;
+			    line-height:2.6;
+			    display:none;
 			}
 
-			input::-ms-placeholder, textarea::-ms-placeholder {
-			  color: #aca49c;
-			  font-size: 0.875em;
+			#nav a:hover span {
+				display:inline;
+				opacity:0;
+			    -moz-animation: anim 0.1s linear forwards 0.1s;
+			    -webkit-animation: anim 0.1s linear forwards 0.1s;
+			    -o-animation: anim 0.1s linear forwards 0.1s;
+			    -ms-animation: anim 0.1s linear forwards 0.1s;
+			    animation: anim 0.1s linear forwards 0.1s;
+			    width:100%;
 			}
 
-			input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
-			  color: #bbb5af;
+			@-moz-keyframes anim {
+			   0%  {opacity:0;}
+			   100% {opacity:1;}
+			}
+			@-webkit-keyframes anim {
+			   0%  {opacity:0;}
+			   100% {opacity:1;}
+			}
+			@-o-keyframes anim {
+			   0%  {opacity:0;}
+			   100% {opacity:1;}
+			}
+			@-ms-keyframes anim {
+			   0%  {opacity:0;}
+			   100% {opacity:1;}
+			}
+			@keyframes anim {
+			   0%  {opacity:0;}
+			   100% {opacity:1;}
 			}
 
-			/* on hover placeholder */
-
-			input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
-			  color: #e2dedb;
-			  font-size: 0.875em;
+			div#nav {
+				font-size: 16px;
+				font-family: "Source Sans Pro", Helvetica, sans-serif;
 			}
 
-			input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
-			  color: #cbc6c1;
+			a.dot {
+				margin-right:100px;
+				margin:0;
+				width:100%;
 			}
 
-			input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
-			  color: #e2dedb;
-			  font-size: 0.875em;
-			}
+/*------------------ work ------------------- */
 
-			input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
-			  color: #cbc6c1;
-			}
 
-			input:hover::placeholder, textarea:hover::placeholder {
-			  color: #e2dedb;
-			  font-size: 0.875em;
-			}
+		a.work {
+			padding:20px;
+			letter-spacing: 0.1em;
+			} 
+	 
+		.work:hover {
+			color: transparent;
+		   	text-shadow: 0 0 4px rgba(0,0,0,0.5);
+		}
 
-			input:hover:focus::placeholder, textarea:hover:focus::placeholder {
-			  color: #cbc6c1;
-			}
 
-			input:hover::placeholder, textarea:hover::placeholder {
-			  color: #e2dedb;
-			  font-size: 0.875em;
-			}
-
-			input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
-			  color: #cbc6c1;
-			}
-
-			header {
-			  position: relative;
-			  margin: 100px 0 25px 0;
-			  font-size: 2.3em;
-			  text-align: center;
-			  letter-spacing: 7px;
-			}
-
-			#form {
-			  position: relative;
-			  width: 500px;
-			  margin: 50px auto 100px auto;
-			}
-
-			input {
-			  font-size: 0.875em;
-			  width: 470px;
-			  height: 50px;
-			  padding: 0px 15px 0px 15px;
-			  background: transparent;
-			  outline: none;
-			  color: #726659;
-			  border: solid 1px #b3aca7;
-			  border-bottom: none;
-			  transition: all 0.3s ease-in-out;
-			  -webkit-transition: all 0.3s ease-in-out;
-			  -moz-transition: all 0.3s ease-in-out;
-			  -ms-transition: all 0.3s ease-in-out;
-			}
-
-			input:hover {
-			  color: #e2dedb;
-			}
-
-			textarea {
-			  width: 470px;
-			  max-width: 470px;
-			  height: 110px;
-			  max-height: 110px;
-			  padding: 15px;
-			  background: transparent;
-			  outline: none;
-			  color: #726659;
-			  font-size: 0.875em;
-			  border: solid 1px #b3aca7;
-			  transition: all 0.3s ease-in-out;
-			  -webkit-transition: all 0.3s ease-in-out;
-			  -moz-transition: all 0.3s ease-in-out;
-			  -ms-transition: all 0.3s ease-in-out;
-			}
-
-			textarea:hover {
-			  color: #e2dedb;
-			}
-
-			#submit {
-			  width: 502px;
-			  padding: 0;
-			  margin: 0px 0px 0px;
-			  font-size: 0.875em;
-			  color: #b3aca7;
-			  outline:none;
-			  border: solid 1px #b3aca7;
-			}
-
-			#submit:hover {
-			  color: #e2dedb;
-			  background:black;
-			}
-
-/*------------------ icons ------------------- */  
+/*------------------ say hello  ------------------- */  
 
 			.icon {
 				margin-top:45px;
@@ -452,9 +245,6 @@ a.work {
 				padding:20px;
 			}
 
-
-
-			
 
 /*------------------ footer ------------------- */  
 
