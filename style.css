@@ -290,6 +290,12 @@
  				bottom:30px;
    			}
 
+   			#nav span {
+				padding-left: 10px;
+			    vertical-align: top;
+			    line-height:2.6;
+			}
+
    			#left_col {
 				padding:0;
 				width:100%;
