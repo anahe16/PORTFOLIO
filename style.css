@@ -304,6 +304,14 @@
  				bottom:30px;
    			}
 
+			#nav span {
+			    display:inline!important;
+			}
+
+			#nav a:hover span {
+				opacity:1!important;
+			}
+
 
    			#left_col {
 				padding:0;
