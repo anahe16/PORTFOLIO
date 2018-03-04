@@ -158,6 +158,13 @@
 /*------------------ bouton back ------------------- */  
 
 
+			.section {
+				width:100%;
+				margin-top: 50px;
+				margin-bottom:-20px;
+				margin-left:45px;	
+			}
+
 /*------------------ nav ------------------- */   
 
 			#nav a {
@@ -276,6 +283,13 @@
    				margin:7%;
    			}
 
+   			.section {
+				width:100%!important;
+				margin-top: 30px!important;
+				margin-bottom:-10px!important;
+				margin-left:0px!important;	
+			}
+
 			body {
 				height:500px!important;
 				width:100%!important;
@@ -290,11 +304,6 @@
  				bottom:30px;
    			}
 
-   			#nav span {
-				padding-left: 10px;
-			    vertical-align: top;
-			    line-height:2.6;
-			}
 
    			#left_col {
 				padding:0;
