@@ -11,8 +11,7 @@
 				  height: 50vmin;
 				  width: 50vmin;
 			}
-			figure.ball.bubble {
-			}
+
 			 .ball.bubble {
 				  -webkit-animation: bubble-anim 2s ease-out infinite;
 				  animation: bubble-anim 2s ease-out infinite; 
@@ -260,12 +259,13 @@
 			#footer	{
 				
    				position:fixed;
-   				bottom:-60px;
+   				bottom:-70px;
    				right:30px;
    				height:100px;
    				margin-top: auto;
    				font-size: 11px;
 			}
+
 		
 
 /*------------------ responsive ------------------- */  
@@ -290,9 +290,8 @@
 				margin-left:0px!important;	
 			}
 
-			body {
-				height:500px!important;
-				width:100%!important;
+			figure.ball.bubble {
+				margin-top: -25%;
 			}
 
    			span.image {
@@ -364,7 +363,7 @@
 			}
 
    			#footer {
-   				font-size:11px!important;
+   				font-size:8px!important;
    			}
 
 
