@@ -259,7 +259,7 @@
 			#footer	{
 				
    				position:fixed;
-   				bottom:-70px;
+   				bottom:-68px;
    				right:30px;
    				height:100px;
    				margin-top: auto;
@@ -283,6 +283,10 @@
    				margin:7%;
    			}
 
+			body {
+				height:100%!important;
+				width:100%!important;
+			}
    			.section {
 				width:100%!important;
 				margin-top: 30px!important;
