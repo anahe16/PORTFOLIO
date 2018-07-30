@@ -349,6 +349,7 @@ h1 {
 		}
 
 /*------------------ about ------------------- */
+
 		.home-content h3 {
    			font-size: 1.8rem!important;
     		text-transform: uppercase!important;
@@ -360,6 +361,19 @@ h1 {
     		margin: 0!important;
     		font-weight: 600!important;
     		font-family: 'Josefin Sans', sans-serif!important;
+    	}
+
+    	.home-content h1 {
+
+    		font-family: "librebaskerville-bold", serif!important;
+    		font-size: 6rem!important;
+    		line-height: 1.1!important;
+    		margin-top: 0!important;
+    		margin-bottom: 25px!important;
+    		padding-left: 6px!important;
+    		color: #001418!important;
+    		margin: 0!important;
+    		font-weight: 600!important;
     	}
 
 
