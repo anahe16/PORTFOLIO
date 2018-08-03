@@ -370,9 +370,8 @@ h1 {
     		line-height: 1.1!important;
     		margin-top: 0!important;
     		margin-bottom: 25px!important;
-    		padding-left: 6px!important;
+    		padding-left: 20px!important;
     		color: #001418!important;
-    		margin: 0!important;
     		font-weight: 600!important;
     	}
 
@@ -428,6 +427,7 @@ h1 {
 				height:100%!important;
 				width:100%!important;
 			}
+
    			.section {
 				width:100%!important;
 				margin-top: 30px!important;
@@ -460,7 +460,7 @@ h1 {
 			}
 
 
-   			#left_col {
+   		/*	#left_col {
 				padding:0;
 				width:100%;
    			}
@@ -490,7 +490,7 @@ h1 {
 				font-size:80%!important;
 				padding-bottom:40px;
 				line-height:1.5;
-   			}
+   			}*/
 
    			a.work {
    				font-size:80%;
@@ -510,6 +510,10 @@ h1 {
 
 			}
 
+			#content {
+				padding-top: 7%!important;
+			}
+
    			#footer {
    				font-size:8px!important;
    				z-index:100;
@@ -523,7 +527,7 @@ h1 {
 
 			.row {padding-bottom:5%!important;}
 
-
+			/* white background on nav */
 			.dot span {
 			 Fallback for web browsers that don't support RGBa */
     		background-color: rgb(255,255,255);
@@ -537,19 +541,23 @@ h1 {
     		padding-bottom: 3px!important;
     		padding-left: 3px!important;
    			padding-right: 3px!important;
-    	}
+    		}
 
+			/* about */
+			
 			h3 {
-				font-size:150%!important;
+				font-size:50%!important;
 				margin-bottom:-5%!important;
 			}
 
 			h1 {
+				font-size:50%!important;
 				line-height:0.9!important;
 				font-size:500%!important;
+				padding-left:none!important;
 			}
 
-			.about-text{
+			.about-text {
 				padding-bottom:25px;
 			}
 
@@ -587,7 +595,7 @@ h1 {
  				bottom:30px;
    			}
 
-   			#left_col {
+   		/*	#left_col {
 				padding:0;
 				width:100%;
    			}
@@ -614,7 +622,7 @@ h1 {
 				display: block !important;
 				padding-bottom:40px;
 				line-height:1.5;
-   			}
+   			}*/
 
    			a.work {
    				font-size:80%;
