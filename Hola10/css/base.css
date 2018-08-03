@@ -455,7 +455,7 @@ input[type="password"], textarea {
 
 /* ------------------------------------------------------------------- 
  * ## medium size devices - (_grid.scss)
- * ------------------------------------------------------------------- */
+ * ------------------------------------------------------------------- 
 
 @media only screen and (max-width: 1200px) {
     .row .row {
@@ -535,13 +535,13 @@ input[type="password"], textarea {
 
 /* ------------------------------------------------------------------- 
  * ## mobile devices - (_grid.scss)
- * ------------------------------------------------------------------- */
+ * ------------------------------------------------------------------- 
 
 @media only screen and (max-width: 600px) {
     .row {
         width: auto;
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 25px!important;
+        padding-right: 25px!important;
     }
     .row .row {
         margin-left: -10px;
@@ -577,7 +577,7 @@ input[type="password"], textarea {
 
 
 /* stack columns on small mobile devices
- * ------------------------------------------------------------------- */
+ * ------------------------------------------------------------------- 
 
 @media only screen and (max-width: 400px) {
     .row .row {
