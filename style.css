@@ -351,28 +351,28 @@ h1 {
 /*------------------ about ------------------- */
 
 		.home-content h3 {
-   			font-size: 1.8rem!important;
-    		text-transform: uppercase!important;
-    		letter-spacing: .5rem!important;
-    		position: relative!important;
-    		padding-left: 100px!important;
-    		margin-bottom: .6rem!important;
-    		color: #001418!important;
-    		margin: 0!important;
-    		font-weight: 600!important;
-    		font-family: 'Josefin Sans', sans-serif!important;
+   			font-size: 1.8rem;
+    		text-transform: uppercase;
+    		letter-spacing: .5rem;
+    		position: relative;
+    		padding-left: 100px;
+    		margin-bottom: .6rem;
+    		color: #001418;
+    		margin: 0;
+    		font-weight: 600;
+    		font-family: 'Josefin Sans', sans-serif;
     	}
 
     	.home-content h1 {
 
-    		font-family: "librebaskerville-bold", serif!important;
-    		font-size: 6rem!important;
-    		line-height: 1.1!important;
-    		margin-top: 0!important;
-    		margin-bottom: 25px!important;
-    		padding-left: 20px!important;
-    		color: #001418!important;
-    		font-weight: 600!important;
+    		font-family: "librebaskerville-bold", serif;
+    		font-size: 6rem;
+    		line-height: 1.1;
+    		margin-top: 0;
+    		margin-bottom: 25px;
+    		padding-left: 20px;
+    		color: #001418;
+    		font-weight: 600;
     	}
 
 
@@ -459,39 +459,6 @@ h1 {
 				z-index:200;
 			}
 
-
-   		/*	#left_col {
-				padding:0;
-				width:100%;
-   			}
-
-   			img.me {
-
-				padding-top:5%;
-				display: block !important;
-				z-index:-5;	
-				width:50%!important;
-				position:center,fixed;
-				margin:auto;
-   			}
-
-			#right_col {
-   				position: absolute;
-				padding-top:3%;
-				width:77%;
-				display: block !important;
-				padding-bottom:40px;
-   			}
-
-   			#right_col p {
-   				position: absolute;
-				padding-left:30%;
-				display: block!important;
-				font-size:80%!important;
-				padding-bottom:40px;
-				line-height:1.5;
-   			}*/
-
    			a.work {
    				font-size:80%;
    			}
@@ -520,12 +487,6 @@ h1 {
    				z-index:100;
    			}
 
-
-			section.page-section {
-				padding-top:10%;
-				padding-left:8.5%;
-			}
-
 			.row {padding-bottom:5%!important;}
 
 			/* white background on nav */
@@ -538,16 +499,13 @@ h1 {
     		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
     		/* For IE 8*/
     		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
-    		padding-top: 3px!important;
-    		padding-bottom: 3px!important;
-    		padding-left: 3px!important;
-   			padding-right: 3px!important;
+    	
     		}
 
 			/* about */
 
 			h3 {
-				font-size:50%!important;
+				font-size:150%!important;
 				margin-bottom:-5%!important;
 			}
 
@@ -555,11 +513,17 @@ h1 {
 				font-size:50%!important;
 				line-height:0.9!important;
 				font-size:500%!important;
-				padding-left:none!important;
+				padding:none!important;
+				margin:none!important;
+				padding-top:10px!important;
 			}
 
 			.about-text {
 				padding-bottom:25px;
+			}
+
+			section.page-section {
+				padding-top:15%;
 			}
 
 			figure {
@@ -595,35 +559,6 @@ h1 {
    			#nav {
  				bottom:30px;
    			}
-
-   		/*	#left_col {
-				padding:0;
-				width:100%;
-   			}
-
-   			img.me {
-				padding-top:5%;
-				z-index:-5;	
-				position:center,fixed;
-				margin:auto;
-   			}
-
-			#right_col {
-   				position: absolute;
-				padding-top:3%;
-				width:75%;
-				display: block !important;
-				padding-bottom:40px;
-   			}
-
-   			#right_col p {
-   				position: absolute;
-   				width:75%;
-				padding-left:30%;
-				display: block !important;
-				padding-bottom:40px;
-				line-height:1.5;
-   			}*/
 
    			a.work {
    				font-size:80%;
