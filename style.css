@@ -365,7 +365,7 @@ h1 {
 
     	.home-content h1 {
     		font-family: "librebaskerville-bold", serif;
-    		font-size: 6rem;
+    		font-size: 100px;
     		line-height: 0.9;
     		margin-top: 0;
     		margin-bottom: 5px;
@@ -508,10 +508,9 @@ h1 {
 				margin-bottom:-5%!important;
 			}
 
-			.home-content.h1 {
-				font-size:50%!important;
+			h1 {
+				font-size: 80px!important;
 				line-height:0.9!important;
-				padding-left:0!important;
 				margin:none!important;
 				padding-top:10px!important;
 			}
@@ -533,6 +532,11 @@ h1 {
 				margin-bottom:15%!important;
 			}
 
+			.col-lg-5.offset-lg-1 {
+				width: 90%!important;
+    			height: auto!important;
+    			padding-left:30px!important;
+			}
 }
 
 
