@@ -32,11 +32,11 @@
     background-color: black;
     margin-top: -1.5px;
     position: absolute;
-    left: 8px;
+    left: 20px;
     top: 50%;
 }
 
-
+/*
 .home-content h1 {
     font-family: "librebaskerville-bold", serif;
     font-size: 6rem;
@@ -46,7 +46,7 @@
     padding-left: 6px;
 
 }
-
+*/
 
 .home-content__main {
     position: relative;

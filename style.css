@@ -364,12 +364,11 @@ h1 {
     	}
 
     	.home-content h1 {
-
     		font-family: "librebaskerville-bold", serif;
     		font-size: 6rem;
-    		line-height: 1.1;
+    		line-height: 0.9;
     		margin-top: 0;
-    		margin-bottom: 25px;
+    		margin-bottom: 5px;
     		padding-left: 20px;
     		color: #001418;
     		font-weight: 600;
@@ -509,11 +508,10 @@ h1 {
 				margin-bottom:-5%!important;
 			}
 
-			h1 {
+			.home-content.h1 {
 				font-size:50%!important;
 				line-height:0.9!important;
-				font-size:500%!important;
-				padding:none!important;
+				padding-left:0!important;
 				margin:none!important;
 				padding-top:10px!important;
 			}
@@ -524,6 +522,11 @@ h1 {
 
 			section.page-section {
 				padding-top:15%;
+			}
+
+			.col-lg-6 {
+				padding-right:20px!important;
+				padding-left:30px!important;
 			}
 
 			figure {
