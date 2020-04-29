@@ -170,6 +170,15 @@
  				text-align:center;
  				margin-top:10%;
  			}
+
+
+/*------------------ B/W filter + hover effect -------------------/*
+
+		img {
+   filter: grayscale(100%);
+   filter: gray; /* IE 6-9 */
+	
+
 /*------------------ bouton back ------------------- */  
 
 			.section {
@@ -179,11 +188,10 @@
 				margin-left:45px;	
 			}
 
-/*------------------ about ------------------- 
+/*------------------ about -------------------  
 
-.col-lg-5.offset-lg-1 {
-
-width:10%;} */ 
+.col-lg-5.offset-lg-1 {}
+*/ 
 
 	section.page-section {
 		padding-top:5%;
